@@ -1,6 +1,6 @@
 <?php
 
-namespace IbrahimBougaoua\FilamentSortOrder\Facades;
+namespace Radix435\FilamentSortOrder\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
