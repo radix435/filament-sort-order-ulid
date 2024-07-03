@@ -1,6 +1,6 @@
 <?php
 
-namespace IbrahimBougaoua\FilamentSortOrder\Database\Factories;
+namespace Radix435\FilamentSortOrder\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
