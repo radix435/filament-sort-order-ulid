@@ -1,6 +1,6 @@
 <?php
 
-namespace IbrahimBougaoua\FilamentSortOrder;
+namespace Radix435\FilamentSortOrder;
 
 class FilamentSortOrder
 {
