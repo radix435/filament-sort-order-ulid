@@ -1,15 +1,20 @@
 {
-    "name": "ibrahimbougaoua/filament-sort-order",
-    "description": "This is my package filament-sort-order",
+    "name": "radix435/filament-sort-order-ulid",
+    "description": "Please do not use. Checkout Ibrahims package filament-sort-order. Perhaps the ulid support will be added to that package later.",
     "keywords": [
-        "ibrahimBougaoua",
+        "radix435",
         "laravel",
-        "filament-sort-order"
+        "filament-sort-order-ulid"
     ],
-    "homepage": "https://github.com/ibrahimbougaoua/filament-sort-order",
+    "homepage": "https://github.com/radix435/filament-sort-order-ulid",
     "license": "MIT",
     "authors": [
         {
+            "name": "Tyler",
+            "email": "tyler@hanksandburton.com",
+            "role": "Contributor"
+        },
+             {
             "name": "Ibrahim",
             "email": "ibrahim.bougaoua@etu.usthb.dz",
             "role": "Developer"
@@ -36,13 +41,13 @@
     },
     "autoload": {
         "psr-4": {
-            "IbrahimBougaoua\\FilamentSortOrder\\": "src/",
-            "IbrahimBougaoua\\FilamentSortOrder\\Database\\Factories\\": "database/factories/"
+            "Radix435\\FilamentSortOrder\\": "src/",
+            "Radix435\\FilamentSortOrder\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "IbrahimBougaoua\\FilamentSortOrder\\Tests\\": "tests/"
+            "Radix435\\FilamentSortOrder\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -62,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "IbrahimBougaoua\\FilamentSortOrder\\FilamentSortOrderServiceProvider"
+                "Radix435\\FilamentSortOrder\\FilamentSortOrderServiceProvider"
             ],
             "aliases": {
-                "FilamentSortOrder": "IbrahimBougaoua\\FilamentSortOrder\\Facades\\FilamentSortOrder"
+                "FilamentSortOrder": "Radix435\\FilamentSortOrder\\Facades\\FilamentSortOrder"
             }
         }
     },
