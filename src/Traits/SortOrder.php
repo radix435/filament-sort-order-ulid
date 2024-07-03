@@ -10,7 +10,12 @@ trait SortOrder
     public static function bootSortOrder(): void
     {
         static::created(function ($model) {
-            $model->sort_order = $model->id;
+            if (is_int($model->id)) {
+                $model->updateQuietly(['sort_order' => $model->id]);
+            } else {
+                $rowCount = $model->newQuery()->count();
+                $model->updateQuietly(['sort_order' => $rowCount + 1]);
+            }
             $model->save();
         });
 
