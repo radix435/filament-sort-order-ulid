@@ -1,6 +1,6 @@
 <?php
 
-namespace IbrahimBougaoua\FilamentSortOrder\Traits;
+namespace Radix435\FilamentSortOrder\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
