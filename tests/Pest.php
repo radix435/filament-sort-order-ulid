@@ -1,5 +1,5 @@
 <?php
 
-use IbrahimBougaoua\FilamentSortOrder\Tests\TestCase;
+use Radix435\FilamentSortOrder\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
