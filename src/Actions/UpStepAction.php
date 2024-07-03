@@ -1,6 +1,6 @@
 <?php
 
-namespace IbrahimBougaoua\FilamentSortOrder\Actions;
+namespace Radix435\FilamentSortOrder\Actions;
 
 use Closure;
 use Filament\Tables\Actions\Action;
