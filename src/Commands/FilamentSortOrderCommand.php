@@ -1,6 +1,6 @@
 <?php
 
-namespace IbrahimBougaoua\FilamentSortOrder\Commands;
+namespace Radix435\FilamentSortOrder\Commands;
 
 use Illuminate\Console\Command;
 
