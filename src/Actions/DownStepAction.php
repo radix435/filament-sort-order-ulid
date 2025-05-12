@@ -5,10 +5,11 @@ namespace Radix435\FilamentSortOrder\Actions;
 use Closure;
 use Filament\Tables\Actions\Action;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Contracts\Support\Htmlable;
 
 class DownStepAction extends Action
 {
-    protected string|Closure|null $icon = 'heroicon-o-arrow-down';
+    protected Htmlable|string|Closure|null $icon = 'heroicon-o-arrow-down';
 
     public static function make(?string $name = 'down'): static
     {
